@@ -24,8 +24,11 @@ body {
 }
 
 p {
-  font-family: "VCR OSD MONO";
-  src: url("../fonts/VCR_OSD_MONO.ttf");
+  font-family: 'VCR OSD Mono';
+  src: url('VCROSDMono.woff2') format('woff2'),
+      url('VCROSDMono.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
   line-height: 1.5em;
   font-kerning: auto;
 }
@@ -36,8 +39,11 @@ p {
 h1 {
   font-size: 3em;
   text-align: center;
-  font-family: "VCR OSD MONO";
-  src: url("../fonts/VCR_OSD_MONO.ttf");
+  font-family: 'VCR OSD Mono';
+  src: url('VCROSDMono.woff2') format('woff2'),
+      url('VCROSDMono.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
   line-height: 1em;
   font-kerning: auto;
 }
@@ -45,8 +51,11 @@ h1 {
 h2 {
   font-size: 2em;
   text-align: center;
-  font-family: "VCR OSD MONO";
-  src: url("../fonts/VCR_OSD_MONO.ttf");
+  font-family: 'VCR OSD Mono';
+  src: url('VCROSDMono.woff2') format('woff2'),
+      url('VCROSDMono.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
   line-height: 1em;
   font-kerning: auto;
   color: blue;
@@ -55,15 +64,21 @@ h2 {
 h3 {
   font-size: 2em;
   text-align: center;
-  font-family: "VCR OSD MONO";
-  src: url("../fonts/VCR_OSD_MONO.ttf");
+  font-family: 'VCR OSD Mono';
+  src: url('VCROSDMono.woff2') format('woff2'),
+      url('VCROSDMono.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
   line-height: 1em;
   font-kerning: auto;
 }
 
 h4 {
-  font-family: "VCR OSD MONO";
-  src: url("../fonts/VCR_OSD_MONO.ttf");
+  font-family: 'VCR OSD Mono';
+  src: url('VCROSDMono.woff2') format('woff2'),
+      url('VCROSDMono.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
   line-height: 1.5em;
   font-kerning: auto;
   display: inline;
@@ -78,8 +93,11 @@ img {
 }
 
 a {
-  font-family: "VCR OSD MONO";
-  src: url("../fonts/VCR_OSD_MONO.ttf");
+  font-family: 'VCR OSD Mono';
+  src: url('VCROSDMono.woff2') format('woff2'),
+      url('VCROSDMono.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
   line-height: 1em;
   font-kerning: auto;
   padding-left: 15px;
@@ -95,11 +113,22 @@ a {
 
 #abc img {
   width: 80vh;
-
 }
+
+@font-face {
+  font-family: 'VCR OSD Mono';
+  src: url('VCROSDMono.woff2') format('woff2'),
+      url('VCROSDMono.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 figcaption {
-  font-family: "VCR OSD MONO";
-  src: url("../fonts/VCR_OSD_MONO.ttf");
+  font-family: 'VCR OSD Mono';
+  src: url('VCROSDMono.woff2') format('woff2'),
+      url('VCROSDMono.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
   line-height: 1.2em;
   font-kerning: auto;
   font-size: 8px;
@@ -151,8 +180,11 @@ a:focus {
   cursor: pointer;
   padding: 5px;
   border-radius: 3px;
-  font-family: "VCR OSD MONO";
-  src: url("../fonts/VCR_OSD_MONO.ttf");
+  font-family: 'VCR OSD Mono';
+  src: url('VCROSDMono.woff2') format('woff2'),
+      url('VCROSDMono.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 #myBtn:hover {
