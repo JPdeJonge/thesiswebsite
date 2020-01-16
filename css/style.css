@@ -1,0 +1,178 @@
+@font-face {
+  font-style: normal;
+  font-weight: normal;
+  font-family: courier;
+}
+
+html {
+  width: 100%;
+}
+
+body {
+  width: 100%;
+  font-family: 'VT323', monospace;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  color: white;
+  background-color: black;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  font-family: "VCR OSD MONO";
+  src: url("../fonts/VCR_OSD_MONO.ttf");
+  font-kerning: normal;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: red;
+}
+
+a:hover,
+a:active {
+  text-decoration: underline;
+}
+
+a:focus {
+  text-decoration: underline;
+}
+
+input,
+button,
+select,
+textarea {
+  -ms-text-size-adjust: none;
+  -o-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+  border-radius: 0;
+  -ms-appearance: none;
+  -o-appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+nav h1 {
+  font-size: 5em;
+}
+
+.wrapper {
+  margin: auto;
+  left: 100px;
+  right: 100px;
+  border: 1px blue;
+}
+
+.wrapper p,
+.wrapper h3,
+.wrapper h4,
+.wrapper .chapter-body li,
+.wrapper nav {
+  margin: auto;
+}
+
+
+.wrapper .menu {
+  padding-bottom: 2.8rem;
+  padding-left: 3.92rem;
+  padding-right: 3.92rem;
+}
+
+.wrapper .menu .chapters-list li {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+.wrapper .menu .chapters-list li:last-child {
+  margin-right: 0;
+}
+
+.wrapper .container {
+  overflow-x: hidden;
+}
+
+.wrapper .container .chapter .chapter-title {
+  margin-top: 2.8rem;
+  margin-bottom: 1.4rem;
+  font-size: 12vw;
+  line-height: 0.924;
+  text-transform: uppercase;
+}
+
+@media only screen and (min-width: 900px) {
+  .wrapper .container .chapter .chapter-title {
+    font-size: 12rem;
+  }
+}
+
+.wrapper .container .chapter .imageWrapper {
+  padding-left: 3.92rem;
+  padding-right: 3.92rem;
+  margin: auto;
+  max-width: 900px;
+}
+
+.wrapper .container .chapter .videoWrapper {
+  position: relative;
+  width: 100vw;
+  height: auto;
+  padding-bottom: 70%;
+  /* 16:9 */
+  background-color: #0f0f0f;
+}
+
+.wrapper .container #return-btn {
+  position: fixed;
+  padding: 2.8rem 3.92rem;
+  right: 0;
+  bottom: 0;
+  font-size: 4rem;
+  opacity: 0;
+  -webkit-transition: opacity 0.2s ease-out;
+  transition: opacity 0.2s ease-out;
+}
+
+.wrapper img {
+  width: 100%;
+  background-color: #0f0f0f;
+}
+
+.wrapper iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #0f0f0f;
+}
+
+.wrapper video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #0f0f0f;
+}
+
+.wrapper span {
+  color: #ffbb00;
+}
+
+.wrapper span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.wrapper p {
+  text-indent: 0;
+}
+
+.wrapper p:first-of-type {
+  text-indent: 0;
+}
