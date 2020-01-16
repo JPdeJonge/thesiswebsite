@@ -117,10 +117,10 @@ figcaption {
   padding-left: 15px;
   padding-right: 15px;
 }
+
 li {
   list-style-type: none;
-  border-color: blue;
-  border-width: 1px;
+
 }
 a:link {
   text-decoration: none;
@@ -172,8 +172,8 @@ a:focus {
 
 .menu {
   text-align: center;
-  padding-right: 4vh;
-
+  padding-left: 30vh;
+  padding-right: 33vh;
 }
 
 .intro {
